@@ -3,6 +3,12 @@ import time
 
 
 class Countdown():
+    """ Simple countdown timer. Asks user to enter the lenght of the timer in minutes.
+    Then prints a formated sentence onto the Command line with the remaining number of 
+    minutes and seconds. 
+    When the countdown is finished program will beep, 12 times or until it is keyboard intrupted. 
+    """
+
     def __init__(self):
         self.frequency = 750  # Set Frequency of alarm beep
         self.duration = 700  # Set Milliseconds of beep length
